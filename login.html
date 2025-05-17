@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="EMANN༒" />
+  <meta name="robots" content="index, follow" />
+  <meta name="keywords" content="html, css, javascript,web development" />
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="css/login/login.css">
+  <link rel="icon" href="img/logo.ico" type="image/x-icon" />
+  <title>EMANNCODE</title>
+
+
+</head>
+
+<body>
+  <form method="get" action="dashboard.html">
+
+    <div class="login-cnt">
+      <div class="title-img">
+        <div class="head-title">
+          <h1 class="title">
+            EmannCode
+          </h1>
+          <p class="sub-title">
+            Web Developer
+          </p>
+        </div>
+
+        <div class="top-img">
+          <div class="img">
+            <img src="img/my logo.jpg" alt="emann-code-logo">
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="usrn-layout">
+        <div class="usrn">
+          <label for="username">UserName</label>
+        </div>
+
+        <div class="usrn-login">
+          <input type="text" id="username" name="username" placeholder="Username" required />
+        </div>
+      </div>
+
+      <div class="pass-layout">
+        <div class="pass">
+          <label for="password">Password</label>
+        </div>
+
+        <div class="pass-login">
+          <input type="password" id="password" name="password" placeholder="Password" required />
+        </div>
+      </div>
+
+      <div class="sign-in-btn" id="signInBtn">
+        <button type="submit">
+          SIGN IN
+        </button>
+      </div>
+
+      <div class="fgrt-pass" id="fgrtPass">
+        <a href="#" target="_blank">Forgot Your Password?</a>
+      </div>
+
+
+  </form>
+
+  </div>
+
+
+  <script src="js/login/login.js"></script>
+
+</body>
+
+</html>
+
+
+
+
+
+<!--WHAT TO REASON LATER
+1. MAKE THE LOGO ROUND OR LOOK FOR ANOTHER ONE.
+2. REVISIT HOW TO MAKE A BACKGROUND IMAGE.
+3. HOW TO USE ELEMENTS WITH ":OR::" IN CSS.
+4. HOW TO USE TRANSITION FOR SPECIFIC ELEMENTS e.g LIKE USING IT FOR OPACITY or COLOR, etc
+5. REVISIT HOW TO DO RESPONSIVE MEDIAS.
+6. HOW TO MAKE A POP UP IN JS THAT WORKS FOR A FUNCTION.
+7. HOW TO MAKE AN ANIMATION WITH CSS.
+8. HOW TO MAKE SURE I LOGIN BEFORE ENTERING THE DASHBOARD INTERFACE EVERYTIME WITH JS.
+9. HOW TO MAKE A CACHE THAT STORES DATA FROM WEBSITES.
+10. HOW TO CREATE A SIGNUP PAGE THAT ALLOWS USERS WHO HAVE SIGNED UP BEFORE, BE ABLE TO LOGIN AGAIN WITH THE CREDENTIALS REQUESTED.
+11. HOW TO CONFIRM CREDENTIALS THAT HAVE BEEN REQUESTED IN THE SIGNUP PAGE.
+12. HOW TO SEND OTP's TO CONFIRM CREDENTIALS.
+
+
+
+
+Help me write a js code that confirms if the username and passcode used is correct and if its not it brings a pop up that tells the user that password and username is incorrect, if they want to try forget password
+
+
+
+
+
+
+
+
+
+
+
+Starting as a programmer with a foundational understanding of HTML, CSS, and basic JavaScript is a great place to begin! To get yourself established as a front-end developer, you’ll need to build on these skills and gain practical experience. Here’s a roadmap you can follow to establish yourself as a front-end developer:
+
+### 1. **Solidify Your Core Skills**
+   - **Deepen your understanding of JavaScript**:  
+     You’ve learned the basics, but there’s still a lot to explore. Focus on:
+     - Functions (callbacks, closures, arrow functions)
+     - DOM manipulation (understand how to dynamically change the content of a webpage)
+     - Event handling (how to respond to user actions like clicks and input)
+     - Arrays and objects (map, filter, reduce, etc.)
+     - Asynchronous programming (promises, `async/await`)
+   
+   - **CSS Layouts**:  
+     Understanding layout techniques is critical. Learn and practice:
+     - Flexbox (great for one-dimensional layouts)
+     - CSS Grid (powerful for two-dimensional layouts)
+     - Responsive design (media queries, fluid layouts, breakpoints)
+   
+   - **Version Control (Git)**:  
+     Learn how to use Git to manage your code. Basic commands like `git init`, `git commit`, `git push`, and `git pull` are essential for collaborating and sharing your code with others. Practice on platforms like **GitHub** or **GitLab**.
+
+### 2. **Learn a JavaScript Framework or Library**
+   Once you feel confident with vanilla JavaScript, start exploring **JavaScript frameworks**. This is a key step that will help you build more complex applications and stand out in the job market.
+
+   - **React** (highly recommended for beginners):
+     - Learn how to create components, manage state, and handle events in React.
+     - Practice creating interactive UIs with reusable components.
+   
+   - **Vue.js**:  
+     - Known for being simpler and easier to learn than React.
+   
+   - **Angular** (if you want a more comprehensive framework with its own structure, but it's a bit more complex).
+
+   **Note**: Start with one framework/library, and once you get comfortable with it, you can explore others. React, however, is a popular choice in the industry.
+
+### 3. **Build Real Projects**
+   To get experience and create a strong portfolio, start building small projects. Here are some project ideas for beginners:
+
+   - **Personal Portfolio Website**: Showcase your skills, projects, and contact information. This is essential as it will serve as your personal brand.
+   - **To-Do List App**: Practice CRUD (Create, Read, Update, Delete) operations. Use local storage or integrate a back-end if you feel comfortable.
+   - **Weather App**: Fetch weather data from an API (e.g., OpenWeatherMap) and display it dynamically on your site.
+   - **Recipe App**: Use a public API (e.g., Edamam or Spoonacular) to display recipes based on user searches.
+   - **Interactive Quiz**: Create a quiz app that tracks user responses and displays a score at the end.
+
+   The key is to focus on building projects that solve real-world problems, even if they are simple.
+
+### 4. **Focus on Responsive Web Design**
+   - Learn how to build **mobile-first** websites that adjust seamlessly to different screen sizes.
+   - Master **media queries** and use **Flexbox** or **CSS Grid** for responsive layouts.
+   - You can practice responsive design by refactoring your earlier projects (like your portfolio or the weather app) to make them mobile-friendly.
+
+### 5. **Understand Web Performance Optimization**
+   - Learn how to optimize images, minify JavaScript/CSS, and use lazy loading for better performance.
+   - Familiarize yourself with browser caching, **Content Delivery Networks (CDNs)**, and **critical rendering path** to ensure fast load times.
+
+### 6. **Deploy Your Projects**
+   - Learn how to deploy your projects so you can share them with potential employers or collaborators. You can use:
+     - **GitHub Pages**: A free and easy way to host static websites.
+     - **Netlify**: For deploying websites and web apps quickly with automatic deployment from GitHub.
+     - **Vercel**: Great for React apps and dynamic front-end projects.
+
+### 7. **Build a Strong Portfolio**
+   - Use the projects you’ve built to create a polished, well-organized **portfolio website**.
+   - Keep it simple but professional. Your portfolio should showcase your projects, skills, and any other relevant experience.
+   - Include links to your GitHub repositories so potential employers can check your code quality.
+   - Include an "About Me" section that tells your story and explains why you’re passionate about programming.
+
+### 8. **Contribute to Open Source**
+   - Contributing to open-source projects is a great way to gain experience and improve your coding skills.
+   - Start small by fixing bugs or improving documentation in popular repositories. Websites like **GitHub** and **GitLab** are great places to find open-source projects.
+   - As you get more experienced, you can take on bigger tasks and contribute meaningful code to larger projects.
+
+### 9. **Learn Basic Web Accessibility (a11y)**
+   - Make your websites accessible to people with disabilities by learning about **web accessibility**.
+   - Focus on things like semantic HTML, ARIA (Accessible Rich Internet Applications) attributes, keyboard navigation, and color contrast.
+   - Tools like **Lighthouse** (built into Chrome DevTools) can help you audit your website’s accessibility.
+
+### 10. **Network and Join Communities**
+   - **Join online communities**: Participate in forums like **Stack Overflow**, **Reddit** (e.g., r/webdev, r/javascript), and **Dev.to** to ask questions, help others, and stay motivated.
+   - **Attend meetups and conferences** (even virtually): Connecting with other developers and learning from them can be invaluable.
+   - **LinkedIn**: Update your profile and connect with professionals in the field. Engage in discussions, share your progress, and build your professional network.
+
+### 11. **Apply for Internships or Junior Developer Roles**
+   - Once you have a few projects under your belt and a solid portfolio, start applying for **junior front-end developer** roles, internships, or freelance work.
+   - Tailor your resume and cover letter to highlight your skills, projects, and enthusiasm to learn.
+   - Practice technical interviews, especially coding challenges and algorithm problems, on platforms like **LeetCode**, **HackerRank**, or **Codewars**.
+
+### 12. **Keep Learning and Improving**
+   - Front-end development is a rapidly changing field. Make it a habit to learn new tools, libraries, and frameworks as they become popular.
+   - Follow blogs, YouTube channels, and podcasts related to web development. Some good resources include:
+     - **MDN Web Docs**: For web standards and in-depth guides.
+     - **CSS-Tricks**: For CSS techniques and front-end tips.
+     - **Frontend Masters** and **Scrimba**: For in-depth tutorials.
+     - **JavaScript30** by Wes Bos: A great collection of 30 JavaScript projects to improve your skills.
+   
+---
+
+By following these steps, you'll not only improve your technical skills but also build a strong online presence that can help you land your first job or freelance gig as a front-end developer. Don’t rush—take the time to build a strong foundation, experiment with different technologies, and create impressive projects. The more you practice, the more confident and established you’ll become.
+
+Let me know if you need further resources or specific tips on any of these steps!
+
+
+
+
+
+
+
+Congrats on starting your programming journey! If you’ve already learned HTML, CSS, and basic JavaScript, you're off to a great start. Now, the next steps are about building on your existing knowledge and making yourself more marketable as a programmer. Here’s a structured plan you can follow to establish yourself as a front-end developer:
+
+### 1. **Build Practical Projects**
+Start building small, real-world projects to apply what you've learned. This helps you practice your skills, while also creating a portfolio that potential employers or clients can review.
+
+#### Suggested Projects:
+- **Personal Portfolio Website**: Showcase your skills, projects, and contact information.
+- **Landing Page**: Create a promotional landing page for a product or service.
+- **To-Do List**: A classic project where you can practice CRUD operations (Create, Read, Update, Delete).
+- **Interactive Quiz**: Use JavaScript to handle the logic of a quiz (multiple-choice questions, score tracking, etc.).
+- **Weather App**: Fetch weather data from a public API and display it on your website.
+- **Recipe Finder**: Build an app that pulls recipes from an API, allowing users to search based on ingredients.
+- **Blog Website (Static)**: Create a simple blog site that allows the posting of articles.
+
+These projects will allow you to get hands-on experience with front-end development.
+
+### 2. **Learn Version Control (Git & GitHub)**
+Knowing how to use Git and GitHub is crucial for working on projects and collaborating with others. Version control helps you keep track of your code changes and enables collaboration with other developers.
+
+#### Steps:
+- **Learn Git Basics**: Learn commands like `git clone`, `git init`, `git add`, `git commit`, `git push`, and `git pull`.
+- **Host Projects on GitHub**: Push your projects to GitHub and create a portfolio with links to your GitHub repositories.
+- **Learn Collaboration**: Get familiar with working on branches, pull requests, and handling merge conflicts.
+
+### 3. **Learn Responsive Design and CSS Frameworks**
+Being able to build responsive websites that work on all devices is essential for front-end developers.
+
+#### What to Focus On:
+- **Media Queries**: Learn how to use media queries to create responsive layouts.
+- **Flexbox & CSS Grid**: These modern layout techniques help you create complex designs without needing float or positioning hacks.
+- **CSS Frameworks**: Get familiar with **Bootstrap** or **Tailwind CSS**. These can help you quickly create clean, responsive layouts with minimal effort.
+
+### 4. **Dive Deeper into JavaScript**
+Since JavaScript is a core language for front-end development, deepening your understanding of it will improve your skill set.
+
+#### Key Areas to Focus On:
+- **DOM Manipulation**: Learn how to interact with and change HTML elements dynamically using JavaScript.
+- **ES6+ Features**: Familiarize yourself with modern JavaScript features like arrow functions, template literals, destructuring, modules, and async/await.
+- **Event Handling**: Learn how to handle user input, mouse events, and form submissions.
+- **Local Storage**: Understand how to store data locally on the user’s browser.
+
+#### Additional Learning Resources:
+- **JavaScript.info**: A great resource to deepen your JS knowledge.
+- **MDN Web Docs**: The Mozilla Developer Network offers comprehensive guides and documentation.
+
+### 5. **Learn a JavaScript Framework/Library**
+Once you're comfortable with JavaScript basics, learning a framework or library can open up new opportunities, especially for building interactive web applications.
+
+#### Suggested Libraries/Frameworks:
+- **React**: React is one of the most popular JavaScript libraries for building user interfaces. It’s in high demand, and it’s a great next step for front-end development.
+- **Vue.js**: A simpler alternative to React, Vue is gaining popularity for its ease of use and flexibility.
+- **Angular**: A more comprehensive front-end framework (more complex than React and Vue), but great for building large-scale applications.
+
+### 6. **Create a Portfolio to Showcase Your Work**
+Your portfolio is a reflection of your skills and experience, and it’s essential for landing jobs or freelance opportunities.
+
+#### Key Portfolio Features:
+- **About Me**: Introduce yourself, your journey, and your skills.
+- **Projects**: Showcase your best projects with live demos and code repositories (GitHub links).
+- **Skills**: List the tools, technologies, and programming languages you're proficient in.
+- **Contact**: Provide a way for potential employers or clients to contact you (email, LinkedIn, etc.).
+
+### 7. **Contribute to Open Source Projects**
+Open-source contributions allow you to work on larger projects, collaborate with others, and get practical experience working with real-world codebases.
+
+#### How to Get Started:
+- Find open-source projects that interest you on GitHub.
+- Look for issues labeled "good first issue" to find tasks that are beginner-friendly.
+- Fork repositories, make changes, and submit pull requests.
+
+### 8. **Join Developer Communities**
+Being part of the developer community is a great way to stay motivated and learn from others.
+
+#### Communities to Join:
+- **Stack Overflow**: Ask questions, answer others' questions, and engage with the developer community.
+- **Dev.to**: A great platform for developers to share articles and ask for help.
+- **GitHub**: Participate in discussions, open-source projects, and follow interesting repositories.
+- **Reddit**: Subreddits like r/learnprogramming, r/webdev, and r/frontend are good places to engage with others.
+- **Twitter**: Follow developers, share your progress, and learn from others.
+
+### 9. **Learn the Basics of Testing**
+Even as a beginner, learning about testing is useful.
+
+#### Types of Testing:
+- **Unit Testing**: Testing individual functions or components (e.g., Jest, Mocha).
+- **End-to-End (E2E) Testing**: Testing entire workflows in an application (e.g., Cypress, Selenium).
+
+You don’t need to dive deep into testing right away, but having an understanding of it will set you apart as you continue to grow.
+
+### 10. **Apply for Jobs/Internships**
+Once you feel comfortable with your skills, start applying for jobs or internships. Don’t worry if you don’t have years of experience—many employers are looking for enthusiasm, a willingness to learn, and a solid foundation.
+
+#### Where to Look for Opportunities:
+- **LinkedIn**: Network with professionals, apply for entry-level positions, and join developer groups.
+- **Job Boards**: Use platforms like **Indeed**, **Glassdoor**, and **AngelList** to find jobs.
+- **Freelance Platforms**: If you're interested in freelance work, try **Upwork**, **Fiverr**, or **Freelancer**.
+- **Hackathons**: Participate in coding competitions and hackathons to demonstrate your skills and connect with potential employers.
+
+### 11. **Keep Learning and Stay Up-to-Date**
+Front-end development evolves quickly, so keep learning to stay relevant. Follow blogs, read articles, and watch tutorials on new technologies and best practices.
+
+#### Some great learning resources:
+- **Frontend Masters**
+- **Codecademy**
+- **freeCodeCamp**
+- **The Net Ninja** (YouTube channel)
+- **Traversy Media** (YouTube channel)
+
+---
+
+### Final Thoughts
+Starting out as a programmer is all about building skills and momentum. By consistently working on projects, engaging with the community, and learning new technologies, you’ll quickly establish yourself as a front-end developer.
+
+You’ve already made great progress by learning HTML, CSS, and basic JavaScript—now, it’s time to keep practicing, building, and expanding your knowledge. What area would you like to dive deeper into next?-->
